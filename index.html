@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- I Used Semantic UI Icons Instead of Images -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha256-9mbkOfVho3ZPXfM7W8sV2SndrGDuh7wuyLjtsWeTI1Q=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/visibility.min.js" integrity="sha256-Th3QlAMxD5M2RJ9nNOvuxJZCgZIlavx5+51jABKTs2A=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Rock, Paper, Scissor Game</h1>
+            <button id="light" class="light ui inverted green button">Light</button>
+            <button id="dark" class="dark ui inverted red button">Dark</button>
+            <h2>To Play Please Choose One Hand..</h2>
+            <button id="reset1" class="btn-reset">Reset</button>
+            <h4 id="note">To Play Again Click Reset</h4>
+            <div id="point" class="point">
+                <p>You: 0</p>
+                <p>Me: 0</p>
+            </div>
+        </header>
+        <div class="options">
+            <i id="rock" class="opt hand rock icon huge"></i>
+            <i id="paper" class="opt hand paper icon huge"></i>
+            <i id="scissors" class="opt hand scissors icon huge"></i>  
+        </div>
+    </div>
+    <div id="showResult">
+        <div id="result">
+            <h1 class="win">We Got A Winner !</h1>
+        </div>
+    </div>
+ <script src="app.js"></script>  
+</body>
+</html>
